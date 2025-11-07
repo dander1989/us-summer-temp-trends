@@ -1,0 +1,7 @@
+﻿pandas
+geopandas
+matplotlib
+plotly
+requests
+shapely
+duckdb
