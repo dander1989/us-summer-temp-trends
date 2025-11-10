@@ -9,12 +9,12 @@ This project explores how average summer (June–August) temperatures have chang
 4. Visualize trends on a U.S. map.
 
 ## Project Structure
--data/
-  -raw/ # raw temperature data from API
-  -processed/ # cleaned or aggregated datasets
-  -outputs/ # final maps or visualizations
--scripts/ # Python scripts for each ETL stage
--notebooks/ # optional Jupyter notebooks
+- data/
+  - raw/ (raw temperature data from API)
+  - processed/ (cleaned or aggregated datasets)
+  - outputs/ (final maps or visualizations)
+- scripts/ (Python scripts for each ETL stage)
+- notebooks/ (optional Jupyter notebooks)
 
 ## Tools
 - Python (pandas, geopandas, matplotlib, plotly)
@@ -34,3 +34,4 @@ python -m venv .venv
 # install dependencies
 
 pip install -r requirements.txt
+
